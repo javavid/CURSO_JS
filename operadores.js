@@ -33,3 +33,6 @@ console.log(numers);
 <= menor e igual que.
 ? operador ternario.
 */
+
+let numr = 5 > 3 ? 'si' : 'no';// asi se utiliza el  Operador ternario.
+console.log(numr);
