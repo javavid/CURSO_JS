@@ -36,3 +36,17 @@ console.log(numers);
 
 let numr = 5 > 3 ? 'si' : 'no';// asi se utiliza el  Operador ternario.
 console.log(numr);
+
+//Operadores logicos.
+/*
+&& And
+|| Or
+! Not
+*/
+const nom = 'carlos';
+const edad = 17;
+const tieneEntrada = true;
+const tienePermiso = true;
+
+const permitirAcceso = (edad >= 18 && tieneEntrada) || tienePermiso;
+console.log( '¿Acceso permitido?' + permitirAcceso);
