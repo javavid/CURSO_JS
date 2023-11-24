@@ -18,3 +18,5 @@
 /= divide un numero al valor de una variable.
 %= obtiene el sobrante de una divicion y lo asigna a la variable.
 */
+let numers = 25 % 2;//25 se divide en dos partes por lo que seria 24 y sobra 1. 
+console.log(numers);
