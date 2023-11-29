@@ -12,3 +12,6 @@ console.log(colores.join('_'));
 
 // .sort()  nos permite ordenar un arreglo de cadenas de texto, de forma alfabetica.
 console.log(colores.sort());//este .sort() tambien ordena numeros.
+
+// .reverse()  nos permite ordenar un arreglo de forma decendente.
+console.log(colores.reverse());//este .reverse() tambien ordena numeros de forma decendente.
