@@ -4,3 +4,14 @@
 */ 
 
 const edad = 21;
+if (edad >= 18){
+const accesoPermitido = true;
+if (true){
+    console.log(accesoPermitido);
+}
+
+const mifuncion = () => {
+    console.log(accesoPermitido);
+};
+mifuncion();
+}
