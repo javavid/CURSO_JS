@@ -11,4 +11,4 @@ document.body.innerHTML = colores.toString();//esto sale en la pantalla del nave
 console.log(colores.join('_'));
 
 // .sort()  nos permite ordenar un arreglo de cadenas de texto, de forma alfabetica.
-console.log(colores.sort());
+console.log(colores.sort());//este .sort() tambien ordena numeros.
