@@ -37,3 +37,16 @@ const namefourletras = nombres.filter((Nombre) => {
     }
 });
 console.log(namefourletras);
+
+// .includes()  nos permite saber si el arreglo contiene un elemento especificado.
+console.log(nombres.includes('loki'));// especifico si loki esta en el arreglo nombres[];.
+
+// .every()  nos permite ejecutar una condicion sobre cada elemento y
+// nos devuelve true si todos los elementos cumplieron la condicion.
+const nomvalidos = nombres.every((names) => {
+if(typeof names === 'string'){
+return true;
+}else{
+    return false;
+}
+});
