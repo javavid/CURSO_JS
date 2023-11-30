@@ -16,3 +16,7 @@ console.log(resultado);
 // Object.values()  nos devuelve un arreglo con los valores (values) del objeto.
 const resul = Object.values(usuario);
 console.log(resul);
+
+// Object.entries()  nos devuleve un arreglo con las parejas de clave y valor del objeto.
+const resulta = Object.entries(usuario);
+console.log(resulta);
