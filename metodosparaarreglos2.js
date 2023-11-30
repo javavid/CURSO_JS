@@ -21,3 +21,19 @@ return nomb;
 });
 
 console.log(resultado);
+
+// .map()  nos permite ejecutar una funcion por cada elemento y crear un nuevo arreglo
+// en base a los resultados de esa funcion.
+const nomMayusculas = nombres.map((nbr) => {
+return nbr.toUpperCase();// toUpperCase() metodo de string.
+});
+console.log(nomMayusculas);
+
+// .filter()  nos permite ejecutar una funcion por cada elemento 
+// y luego crea un arreglo en base a los resultados de esa funcion.
+const namefourletras = nombres.filter((Nombre) => {
+    if (Nombre.length === 4){
+        return Nombre// me devuelve los nombre de 4 letras.
+    }
+});
+console.log(namefourletras);
