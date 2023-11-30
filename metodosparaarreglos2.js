@@ -50,3 +50,4 @@ return true;
     return false;
 }
 });
+console.log(nomvalidos);
