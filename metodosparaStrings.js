@@ -31,3 +31,6 @@ const txt = 'escolopendra';
 console.log(txt.split('e'));
 
 // .toUppercase()  .toLowercase()  devuelve una cadena de texto de puras Mayusculas/Minusculas.
+console.log(txt.toUpperCase());
+console.log(txt.toLowerCase());
+
