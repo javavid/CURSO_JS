@@ -52,4 +52,4 @@ return true;
     return false;
 }
 });
-console.log(nomvalidos);
+console.log('¿Son validos todos los elementos? ' + nomvalidos);
