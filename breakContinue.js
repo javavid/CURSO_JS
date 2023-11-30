@@ -1,3 +1,8 @@
+/* Break;
+- la sentencia break nos sirve para salir de bloques de tipo swicth.
+- pero tambien nos sirve para forzar la salida de un ciclo.
+*/
+
 const nom = ['Armando','Alex','Arturo','Alexis','Amparo','Rosembell','Andres','Arnoldo','Abel'];
 
 for(let i = 0; i < nom.length; i++){
