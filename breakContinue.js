@@ -13,3 +13,14 @@ break;
 }
 console.log(nom[i]);
 }
+
+
+//Continue;  la sentecia continue nos sirve para saltar a la siguiente iteracion.
+const invitados = ['Pedro','Ferdi','Fernando','Fabian','Jorge','Adrian','Carlos'];
+console.log('lista de personas aprobadas');
+for(let h = 0; h < invitados.length; h++){
+if (invitados[h] === 'Jorge') {
+continue;
+}
+console.log(invitados[h]);
+}
