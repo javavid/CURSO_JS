@@ -14,4 +14,4 @@ console.log(num.toFixed(4));//se pone la cantidad de decimales que quiere mostra
 // no se puede trabajar con decimales.
 const nume1 = parseInt(prompt('escribe nume1'));
 const nume2 = parseInt(prompt('escribe nume2'));
-console.log(nume1 + nume2);
+console.log(nume1 + nume2); 
