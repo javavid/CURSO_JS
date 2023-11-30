@@ -2,10 +2,12 @@
  si no hay elemento no retorna -1.
 */
 const nombres = ['brian','loki','thor','holck','batman','robin','spiderman','venon','thor'];
-console.log(nombres.indexOf('thor'));
+console.log(nombres.indexOf('thor'));// si el nombre esta repetido en el arreglo 
+                                     // tomara el que este de primera y nos mostrara la posiscion de este.
 
 // .lastIndexOf()  obtenemos el ultimo index de un elemento.
-console.log(nombres.lastIndexOf('thor'));
+console.log(nombres.lastIndexOf('thor'));//si el nombre esta repetido en el arreglo
+                                         //tomara el que este de ultimo y nos mostrara la posiscion de este.
 
 // .forEach()  nos permite ejecutar una funcion por cada elemento.
 nombres.forEach((nombre, index) => {
