@@ -53,3 +53,17 @@ return true;
 }
 });
 console.log('¿Son validos todos los elementos? ' + nomvalidos);
+
+// .some()  nos permite ejecutar un condicional sobre cada elemento y
+// nos devuelve true si algun elemento cumplio la condicion.
+const nombress = ['brian','loki','thors','holcks','batman','robin', 45, 'spiderman','venon','thors'];
+const nombresinvalidos = nombress.some((names1) => {
+    if(typeof names1 !== 'string'){
+    return true;
+    }else{
+        return false;
+    }
+    });
+    console.log('¿El arreglo es invalido? ' + nombresinvalidos);
+    // El arreglo es invalido si contiene un numero o algo que no sea string. true
+    
