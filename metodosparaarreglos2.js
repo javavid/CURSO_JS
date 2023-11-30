@@ -8,6 +8,16 @@ console.log(nombres.indexOf('thor'));
 console.log(nombres.lastIndexOf('thor'));
 
 // .forEach()  nos permite ejecutar una funcion por cada elemento.
-nombres.forEach((nombre) => {
-console.log(`hola ${nombre}`);
+nombres.forEach((nombre, index) => {
+console.log(`hola ${nombre} en posicion (${index})`);
 });
+
+// .find()  nos permite recorrer un arreglo y devuelve el primer elemento que retornamos.
+const nom = ['Faian','Lucas','Diego','Varto','Pedro','Robin','Peter','Solis','Herver'];
+const resultado = nom.find((nomb) => {
+if (nomb[0] === 'R'){
+return nomb;
+}
+});
+
+console.log(resultado);
