@@ -14,4 +14,5 @@ console.log(tex.lastIndexOf('r'));
 - 2do parametro - (opcional) index hasta dodne queremos cortar.
 */
 const textos = 'Ornitorrinco';
-console.log(textos.slice(7));//corto desde la posicion 7.
+const indice = textos.lastIndexOf('r');
+console.log(textos.slice(indice));//corto desde la posicion 7.
