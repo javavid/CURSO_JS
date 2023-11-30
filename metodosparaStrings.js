@@ -15,4 +15,4 @@ console.log(tex.lastIndexOf('r'));
 */
 const textos = 'Ornitorrinco';
 const indice = textos.lastIndexOf('r');
-console.log(textos.slice(indice));//corto desde la posicion 7.
+console.log(textos.slice(indice));//corto desde la posicion 7, si vas a poner el parametro en numero.
