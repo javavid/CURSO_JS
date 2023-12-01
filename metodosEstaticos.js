@@ -11,4 +11,4 @@ class Usuario{
     }
 }
 Usuario.borrar(3); // de esta manera se llama un metodo estatico de una clase.
-console.log(Usuario.num);
+console.log(Usuario.num); 
