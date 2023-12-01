@@ -15,7 +15,7 @@ super(usuario, password); // con super() podemos copiar todos los metodos, propi
 this.permi = permisos;    // de la clase padre ose Usuario.
 }
 borrarpost(id){
-if(this.permi.includes('borrar')){
+if(this.permi.includes('borrar')){ //includes verifica si this.permi esta en moredador.
 console.log(`El post con el ${id} ha sido borrado`);
 }else{
     console.log('No tienes los permisis para borrar post');
