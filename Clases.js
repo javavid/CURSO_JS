@@ -4,14 +4,14 @@
 - constructor: es un metodo especial para inicializar un objeto creado a partir de una clase.
 - metodos: la clase puede tener funciones. dentro de una clase se llaman metodos.
 */
-class Usuario {
+class Usuario {     //clase.
  tipo = 'usuario';
 
- constructor(nombre, apellido){
+ constructor(nombre, apellido){  // construtor.
 this.nom = nombre;
 this.ape = apellido;
  }
- obtenerNombreCompleto(){
+ obtenerNombreCompleto(){              //metodo o funcion.
     return `${this.nom} ${this.ape}`;
  }
 }
